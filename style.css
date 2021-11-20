@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background:#35424a ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    line-height: 1.5;
+}
+.container{
+    width: 80% ;
+    margin: auto;
+    overflow: hidden;
+}
+header{
+    color: #35424a;
+    background: white;
+    padding-top: 40px;
+    min-height: 70px;
+    border-bottom: 2px solid yellow;
+}
+header a{
+color: black;
+text-decoration: none;
+
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0px 30px 0 30px;
+}
+header #header{
+    float: left;
+}
+header #header h1{
+   margin: 0;
+}
+header nav {
+    float: right; 
+    padding-bottom: 40px;
+}
+
+header span{
+    color: yellow;
+}
+.current a{
+color: red;
+}
+
+header a:hover{
+    color: yellow;
+}
+
+footer{
+    background: red;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#heading {
+    text-align: center;
+    color: #35424a;
+    font-size: 17px;
+    background:yellow;
+    padding-bottom: 30px;
+}
+#signup {
+
+}
+#boxes {
+margin-top: 40px;
+}
+#boxes .box{
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+}
+#us h1{
+    padding-top: 20px;
+}
+#us p{
+    float: left;
+    width: 65%;
+}
+
+.sidebar{
+    float: right;
+    width: 30%;
+    margin-bottom: 30px;
+    font-size: 13px;
+    background: white;
+    color:#35424a ;
+    padding: 10px;
+    border-radius: 20px;
+}
+#services li{
+    padding: 20px;
+    border: #cccccc solid 1px;
+    margin-bottom: 5px;
+    background:yellow; 
+    color: #35424a;
+}
+#signup{
+    padding: 15px;
+    background: white;
+    color: #35424a;
+    justify-content: center;
+}
+#signup h1{
+    float: left;
+}
+#signup form{
+    float: right;
+}
+#signup input{
+    display: flex;
+    flex-direction: column;
+    outline: none;
+    padding: 3px;
+    text-align: start;
+    width: 250px;
+    margin: 2px;
+}
+.button{
+  background: #35424a;
+  color: white;
+  outline: none;
+ 
+}
+#login form{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 30px 0 70px 30px;
+background: white;
+color: black;
+width: 70%;
+
+}
+#login h1{
+border-bottom: 1px solid silver;
+margin-bottom: 30px;
+}
+#login input{
+    padding: 15px;
+    margin: 10px;
+    width: 300px;
+    outline: none;
+    border-color: yellow;
+    transition: 0.3s ease-in-out;
+}
+#login input:hover{
+    border-color: red;
+    width: 330px;
+}
+.btn{
+    width: 13%;
+    height: 30px;
+    background: rgb(177, 4, 4);
+    color: white;
+  outline: none;
+  transition: 0.3s ease-in-out;
+}
+.btn:hover{
+  background: #35424a;
+  color: white;
+}
+#login p{
+    padding-top: 20px;
+}
+
+.
